@@ -1,0 +1,16 @@
+{
+  "name": "Inland Website Dev",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
+  "postCreateCommand": "npm install || true",
+  "forwardPorts": [8080],
+  "workspaceFolder": "/workspaces/inland-website",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "github.vscode-pull-request-github"
+      ]
+    }
+  },
+  "remoteUser": "node"
+}
